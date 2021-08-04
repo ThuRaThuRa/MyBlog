@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+	body{
+	font-family:Lobster;
+	}
+.header {
+  padding: 85px 0;
+
+/* margin-bottom: 10px; */
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #9c88ff;
+}
+
+nav div {
+  background-color: #353b48;
+}
+
+nav div a {
+  display: inline-block;
+  padding: 13px;
+  color: white;
+  text-decoration: none;
+}
+
+.login,
+.register {
+  float: right;
+  margin-left: 4px;
+  background-color: #fbc531;
+}
+
+nav div a:hover {
+  background-color: #ccc;
+}
+
+.left-sidebar {
+  text-align: center;
+  background-color: #ccc;
+}
+
+.left-sidebar ul li {
+  width: 80%;
+  padding: 10px;
+  margin: 2px auto;
+  color: white;
+  list-style-type: none;
+  background-color: #2f3640;
+  border-radius: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.right-sidebar .project {
+  width: 90%;
+  padding: 80px 0;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  margin-bottom:10px;
+}
+
+
+
+.background-color-one {
+  background-color: #8e44ad;
+}
+
+.background-color-two {
+  background-color: #f469a9;
+}
+
+.background-color-three {
+  background-color: #27ae60;
+}
+
+.bckground-color-four {
+  background-color:#00a8ff;
+}
+
+.background-color-fifth {
+  background-color:#192a56;
+}
+.bckground-color-six {
+  background-color: #0B022D;
+}
+
+.right-sidebar .project:hover {
+  border-radius: 20px;
+  transition: .3s;
+}
+#list{
+margin-bottom:20px;
+}
+
+</style>
+  </head>
+
+  <body>
+ 
+    <!-- header -->
+    <div class="header">
+      <h1>
+
+  မင်္ဂလာပါ <span
+    class="typer"
+    id="some-id"
+    data-words="ကျွန်တော်ကတော့ ကွန်ပျူတာတက္ကသိုလ်နောက်ဆုံးနှစ် ကျောင်းသားတစ် ယောက်ဖြစ်ပါတယ်"
+    data-delay="100"
+    data-colors="#08605F,#177E89,purple">
+  </span>
+  <span style="font-size:1.2em;vertical-align:middle;" class="cursor" data-cursorDisplay="|" data-owner="some-id"></span>
+</h1>
+    </div>
+
+    <!-- navigation -->
+    <nav>
+      <div>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#" class="login">Login</a>
+        <a href="#" class="register">Register</a>
+      </div>
+    </nav>
+
+
+    <!-- body -->
+    <div class="row">
+      <div class="col-4 left-sidebar">
+        <img src="https://p.kindpng.com/picc/s/78-786207_user-avatar-png-user-avatar-icon-png-transparent.png"
+          style="width: 50%;" alt="">
+		  	
+        <h1>Hello I'm Thura Aung </h1>
+        <hr>
+        <b>Skill</b>
+        <ul style="border:1px solid #005affc2">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>Bootstrap</li>
+          <li>JQuery</li>
+        </ul>
+
+      </div>
+      <div class="col-8 right-sidebar">
+        <div class="row text-center">
+          <h1 id="list">My Projects list</h1>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="project background-color-one">
+              <h3>Online Shop Project</h3>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="project background-color-two">
+              <h3>Library Project</h3>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="project background-color-three">
+              <h3>Mini Bus Ticket Project</h3>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="project  bckground-color-four">
+              <h3>Airway Project</h3>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="project  bckground-color-six">
+              <h3>Airway Project</h3>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="project background-color-fifth">
+              <h3>Online Shop Project</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+<script src="js/typer.js"></script>
+  </body>
+
+</html>
